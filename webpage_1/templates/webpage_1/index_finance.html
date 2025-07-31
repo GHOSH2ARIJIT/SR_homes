@@ -1,0 +1,651 @@
+<!DOCTYPE HTML>
+
+<html>
+{% load static %}
+	<head>
+		<title>Halcyonic by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'webpage_1/assets/css/main.css'%}" />
+		
+
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Logo -->
+									<h1><a href="/finance-topic-detail/" id="logo">SR HOMES</a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="/finance-topic-detail/">Homepage</a>
+										<a href="/finance-topic-threecolumn/">Flat Details</a>
+										<!--a href="/finance-topic-twocolumn/">Finance</a-->
+										<!--a href="/finance-topic-twocolumnset/">Contact</a-->
+										<!--a href="/finance-topic-onecolumn/">One Column</a-->
+									</nav>
+
+							</div>
+						</div>
+					</div>
+					<div id="banner">
+						<div class="container">
+							<div class="row">
+								<div class="col-6 col-12-medium">
+
+									<!-- Banner Copy -->
+										<p>we provide the best details of properties</p>
+										<a href="#" class="button-large">Go on, click me!</a>
+
+								</div>
+								<div class="col-6 col-12-medium imp-medium">
+
+									<!-- Banner Image -->
+									<section class="banner-section">
+									<a href="#" class="bordered-feature-image">
+										<img src="{% static 'webpage_1/images/banner.jpg' %}" alt="Banner" />
+									</a>
+									<style>
+									* {
+										box-sizing: border-box;
+									}
+
+									.bordered-feature-image {
+										width: 80%;
+										max-width: 800px;
+										height: auto;
+										border: 2px solid #bbb; /* Thinner and softer border */
+										border-radius: 10px; /* Slightly smoother corners */
+										box-shadow: 0 2px 8px rgba(197, 189, 189, 0.08); /* Light shadow for depth */
+										margin: auto;
+										display: block; /* Ensures centering works */
+									}
+									</style>
+
+									</section>
+										
+										</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!------MOdal   close after 30 sec----->
+            <div id="autoModal" class="modal">
+                <div class="modal-content">
+                <span class="close" id="closeBtn">&times;</span>
+                <p>This modal will close automatically in 8 seconds.</p>
+				<a href="#" class="bordered-feature-image">
+										<img src="{% static 'webpage_1/images/banner.jpg' %}" alt="Banner" />
+									</a>
+                </div>
+            </div>
+			
+			<div class="scrollable-box">
+			<!-- Features -->
+			 <p>
+				<section id="features">
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #1 -->
+									<section>
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic01.jpg'%}" alt="" /></a-->
+
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/pic01.jpg'%}" cursor:pointer; onclick="openModal('modal_1')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_1" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal('modal_1')" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/pic01.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											
+											</div>
+											</div>
+
+										<h2>Pure sonnet</h2>
+										<p>
+											CC6C+43C, Harinavi, Rajpur Sonarpur, West Bengal 700146
+										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #2 -->
+									<section>
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic02.jpg'%}" alt="" /></a-->
+
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/pic02.jpg'%}" cursor:pointer; onclick="openModal('modal_2')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_2" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal('modal_2')" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/pic02.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											
+											</div>
+											</div>
+
+										<h2>Rajwada Royal Garden</h2>
+										<p>
+											CCG3+MF4, Dakshin Jagaddal, Narendrapur, Kolkata, Rajpur Sonarpur, West Bengal 700103
+										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #3 -->
+									<section>
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic03.jpg'%}" alt="" /></a-->
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/pic03.jpg'%}" cursor:pointer; onclick="openModal('modal_3')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_3" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal('modal_3')" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/pic03.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											<p>
+												
+											</p>
+											</div>
+											</div>
+
+										<h2>Rajwada Global City</h2>
+										<p>
+											282, UKHILA-2, NARENDRAPUR, Narendrapur, Kolkata, West Bengal 700103
+										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #4 -->
+									<section>
+										
+										<!--img id="image" src="{% static 'webpage_1/images/pic04.jpg'%}" style="width:200px;" onclick="expandImage()" alt="Click to expand"-->
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/pic04.jpg'%}" cursor:pointer; onclick="openModal('modal_4')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_4" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal('modal_4')" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/pic04.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											<p>
+												
+											</p>
+										</div>
+										</div>
+
+
+										
+
+
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic04.jpg'%}" alt="" /></a-->
+										<h2>Ozone (Srijan group of industries)</h2>
+										<p>
+											2060, Eastern Metropolitan Bypass, opp. Pepsi Factory, Kamalgazi, Narendrapur, Rajpur Sonarpur, West Bengal 700103
+										</p>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+			</p>	
+
+			<!-- Features -->
+			 <p>
+				<section id="features">
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #1 -->
+									<section>
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic01.jpg'%}" alt="" /></a-->
+
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/pic05.jpg'%}" cursor:pointer; onclick="openModal('modal_5')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_5" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal('modal_5')" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/pic05.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										
+										<div>
+											
+											</div>
+											</div>
+
+										<h2>Siddha (Suburbia)</h2>
+										<p>
+											Khasmallick (near Smriti Mahal Restaurant On Southern Bypass) EM Bypass Extension P.S. Baruipur, Khasmallik, West Bengal 700145
+										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #2 -->
+									<section>
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic02.jpg'%}" alt="" /></a-->
+
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/three_3.jpg'%}" cursor:pointer; onclick="openModal('modal_3')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_3" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal()" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/three_3.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											
+											</div>
+											
+											</div>
+
+										<h2>Southwinds</h2>
+										<p>
+											Address:- Southwinds, 132, Ghosal Para Ln, Manikpur, Chowhati, Haraharitala, Rajpur Sonarpur, West Bengal 700148
+										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #3 -->
+									<section>
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic03.jpg'%}" alt="" /></a-->
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/three_2.jpg'%}" cursor:pointer; onclick="openModal('modal_1')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_1" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal()" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/three_2.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											<p>
+												
+											</p>
+											</div>
+											</div>
+
+										<h2>Southwinds</h2>
+										<p>
+											Address:- Southwinds, 132, Ghosal Para Ln, Manikpur, Chowhati, Haraharitala, Rajpur Sonarpur, West Bengal 700148
+										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+
+								<!-- Feature #4 -->
+									<section>
+										
+										<!--img id="image" src="{% static 'webpage_1/images/pic04.jpg'%}" style="width:200px;" onclick="expandImage()" alt="Click to expand"-->
+										<a href="#" class="bordered-feature-image">
+										<img id="thumb" src="{% static 'webpage_1/images/three_4.jpg'%}" cursor:pointer; onclick="openModal('modal_2')" alt="Click to enlarge"></a>
+
+										<!-- Modal Structure -->
+										<div id="modal_2" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+										background-color:rgba(32, 31, 31, 0.781); z-index:9999; justify-content:center; align-items:center;">
+										<span onclick="closeModal()" style="position:absolute; top: 20px;; right: 30px;; color:white; font-size:30px; cursor:pointer;">&times;</span>
+										<img src="{% static 'webpage_1/images/three_4.jpg'%}" style="width:60%; height:60%;">
+										<ul>
+										<li>For all details contact with us </li>
+										<li>Call:- 9883478027 or</li> 
+										<li>Whatsapp-8240836943</li>
+										</ul>
+										<div>
+											<p>
+												
+											</p>
+											</div>
+											</div>
+
+										<h2>Southwinds</h2>
+										<p>
+											
+										</p>
+									</section>
+
+
+										
+
+
+										<!--a href="#" class="bordered-feature-image"><img src="{% static 'webpage_1/images/pic04.jpg'%}" alt="" /></a-->
+										<h2>
+											
+										</h2>
+										<p>
+										</p>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+			</p>	
+
+            </div>
+
+			<!-- Content -->
+				<section id="content">
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+
+								<!-- Box #1 -->
+									<section>
+										<header>
+											<h2>We Are SR HOMES</h2>
+											<h3>Your Trusted Property Partner</h3>
+										</header>
+										<a href="#" class="feature-image"><img src="{% static 'webpage_1/images/pic.jpg'%}" alt="" /></a>
+										<p>
+											At SR Homes, we're more than just property dealers — we're your partners in finding the perfect place to call home.
+											With years of experience in real estate, we specialize in connecting people with properties that suit their lifestyle, budget, and future goals.
+											Whether you're buying, selling, or renting, our team is dedicated to making your experience smooth, transparent, and rewarding.
+										</p>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Box #2 -->
+									<section>
+										<header>
+											<h2>What We Do</h2>
+											<h3>At SR Homes, we offer a full suite of real estate services, including:</h3>
+										</header>
+										<ul class="check-list">
+											<li>From first homes to forever homes, we help you close the right deal.</li>
+											<li>Find the right place to rent, or list your property with confidence.</li>
+											<li>Let us handle maintenance, tenants, and more.</li>
+											
+										</ul>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Box #3 -->
+									<section>
+										<header>
+											<h2>What People Are Saying about SR Homes</h2>
+											
+										</header>
+										<ul class="quote-list">
+											<li>
+												
+												<img src="{% static 'webpage_1/images/pic06.jpg'%}" alt="" />
+												<p>"Thanks to SR Homes, we found a rental that feels like home — quickly and stress-free."</p>
+												<span>Neha & Sameer</span>
+											</li>
+											<li>
+												<img src="{% static 'webpage_1/images/pic07.jpg'%}" alt="" />
+												<p>"SR Homes made buying our first home an easy and exciting process. They listened to our needs and delivered beyond expectations.""</p>
+												<span>Ritika Sharma</span>
+											</li>
+											
+										</ul>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-8 col-12-medium">
+
+								<!-- Links -->
+									<section>
+										<h2></h2>
+										<div>
+											<div class="row">
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li>Contact :- 9883478027 / 7406082116 </a></li>
+														
+													</ul>
+												</div>
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														
+														
+													
+												</div>
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li>Address :-</a></li>
+														<li>Baruipur, 700144</a></li>
+													</ul>
+												</div>
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li>Owner name :-</a></li>
+														<li></a>Subra Halder &</li>
+														<li></a>Anuveer Halder</li>
+														
+													</ul>
+												</div>
+											</div>
+										</div>
+									</section>
+
+							</div>
+							<!--div class="col-4 col-12-medium imp-medium"-->
+
+								<!-- Blurb -->
+									<section>
+										<h2></h2>
+										<p>
+											<ul>
+											<li>Mail :-</a></li>
+														<li>srhomesandconsultancy@gmail.com</a></li>
+														</ul>
+										</p>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; SR HOMES. All rights reserved. | Design: <a href="http://html5up.net">Arijit Ghosh</a>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'webpage_1/assets/js/jquery.min.js'%}"></script>
+			<script src="{% static 'webpage_1/assets/js/browser.min.js'%}"></script>
+			<script src="{% static 'webpage_1/assets/js/breakpoints.min.js'%}"></script>
+			<script src="{% static 'webpage_1/assets/js/util.js'%}"></script>
+			<script src="{% static 'webpage_1/assets/js/main.js'%}"></script>
+		
+			//image expantion	
+			<script>
+				function openModal(modal_id) {
+					document.getElementById(modal_id).style.display = 'flex';
+				}
+
+				function closeModal(modal_id) {
+					document.getElementById(modal_id).style.display = 'none';
+				}
+
+
+										
+            const modal = document.getElementById("autoModal");
+            const closeBtn = document.getElementById("closeBtn");
+
+            // Show modal on page load
+            window.onload = function() {
+            modal.style.display = "block";
+
+
+            // Auto close modal after 30 seconds (30,000 milliseconds)
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 8000);
+            };
+
+            // Allow manual close by clicking (x)
+            closeBtn.onclick = function() {
+            modal.style.display = "none";
+            };
+
+            // Close if user clicks outside modal box
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            };
+
+			
+			window.onload = function() {
+			const modal = document.getElementById('autoModal');
+			modal.classList.add('show');
+
+			// Close modal after 8 seconds
+			setTimeout(() => {
+				modal.style.display = 'none';
+			}, 8000);
+
+			// Manual close
+			document.getElementById('closeBtn').onclick = function() {
+				modal.style.display = 'none';
+			};
+			};
+
+			
+        </script>
+
+        
+        
+        <style>
+            .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            }
+
+            .modal-content img {
+			max-width: 100%;         /* Prevents horizontal overflow */
+			max-height: 100%;        /* Prevents vertical overflow */
+			height: auto;
+			border: 1.5px solid #bbb;
+			border-radius: 10px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+			display: block;
+			margin: 15px auto;
+			object-fit: contain;     /* Maintains aspect ratio without clipping */
+		}
+
+
+			@keyframes fadeIn {
+			from { opacity: 0; transform: translateY(-20px); }
+			to { opacity: 1; transform: translateY(0); }
+			}
+
+			.modal.show {
+			display: block;
+			}
+
+			.modal-content {
+			animation: fadeIn 1.6s ease-out;
+			}
+
+            .close {
+            color: #aaa;
+            float: right;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            }
+
+            .close:hover {
+            color: red;
+            }
+
+			.scrollable-box {
+			width: 100%;               /* Full width of parent container */
+			max-width: 1500px;         /* Limit max width for big screens */
+			height: 60vh;              /* 50% of viewport height */
+			overflow: auto;
+			scroll-behavior: smooth;
+			border: 1px solid #ccc;
+			padding: 10px;
+			box-sizing: border-box;
+			}
+
+        </style>
+	</body>
+</html>
